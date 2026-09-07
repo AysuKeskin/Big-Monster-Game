@@ -4,6 +4,8 @@ Four cubes, one exit, and a monster that won't leave you alone.
 
 A small Unity arena game about finding a clear route, keeping your distance, and knowing when to dash. Collect every cube to open the exit, then make it there before the monster catches you. There are three rounds, and the chase gets faster each time.
 
+![Collecting cubes while the monster closes in](docs/gameplay.gif)
+
 ## Playing
 
 You start with three lives. Getting hit costs a life and gives you a short moment of protection. A dash can get you out of a tight corner, but it needs time to recharge. The boxes can be pushed around, so the path you started with may not stay clear.
