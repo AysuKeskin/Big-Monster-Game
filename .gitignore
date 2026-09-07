@@ -50,3 +50,6 @@ sysinfo.txt
 # OS
 .DS_Store
 Thumbs.db
+
+# Local, pre-Git manual backups (not tracked in this repository)
+Backups/

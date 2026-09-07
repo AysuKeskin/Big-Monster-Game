@@ -41,23 +41,28 @@ sounds, and their scene references can be edited in the Inspector.
 
 ```
 Assets/
-├── Audio/       music and sound effects
-├── Editor/      editor-only menu and checks
-├── Fonts/       Orbitron, plus the generated atlas
-├── Materials/   arena, player, enemy, pickup surfaces
-├── Meshes/      generated arena and ring geometry
-├── Scenes/      Arena.unity and its baked NavMesh
-├── Scripts/     gameplay code
-└── Settings/    URP render pipeline and volume profiles
+├── Audio/                        music and sound effects
+├── Editor/                       editor-only menu and checks
+├── Fonts/                        Orbitron and the UI font atlas
+├── Materials/                    arena, player, enemy, pickup surfaces
+├── Meshes/                       generated arena and ring geometry
+├── Scenes/                       Arena.unity and its baked NavMesh
+├── Scripts/                      gameplay code
+├── Settings/                     URP render pipeline and volume profiles
+├── TextMesh Pro/                 TMP package resources and Liberation Sans
+└── InputSystem_Actions.inputactions
 ```
 
 ## License
 
 The code in this repository is MIT licensed — see [LICENSE](LICENSE).
 
-The bundled font and audio are not mine and keep their own terms. The Orbitron
-font is under the SIL Open Font License — see `Assets/Fonts/Orbitron-OFL.txt`.
-The music and sound effects came with a third-party asset pack and ship without
-their own license file, so treat them as not covered by this repository's
-license and check their source before reusing them.
+The bundled fonts and audio are not mine and keep their own terms. Most on-screen
+text renders with Liberation Sans, which ships with TextMesh Pro under the SIL
+Open Font License — see `Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt`. The
+title and menu headings use Orbitron, also under the SIL Open Font License — see
+`Assets/Fonts/Orbitron-OFL.txt`. The music and sound effects came with a
+third-party asset pack and ship without their own license file, so treat them as
+not covered by this repository's license and check their source before reusing
+them.
 
