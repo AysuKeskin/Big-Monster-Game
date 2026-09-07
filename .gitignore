@@ -34,6 +34,11 @@ ExportedObj/
 *.opendb
 *.VC.db
 
+# Unity generated meta files for the above
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
 # Build output
 *.apk
 *.aab
@@ -45,6 +50,3 @@ sysinfo.txt
 # OS
 .DS_Store
 Thumbs.db
-
-# Pre-Git manual backups (preserved in the initial commit)
-Backups/

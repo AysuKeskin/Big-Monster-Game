@@ -1,0 +1,49 @@
+# Normalize line endings so the repo stays LF regardless of platform.
+* text=auto
+
+# Source and text
+*.cs        text diff=csharp
+*.shader    text
+*.hlsl      text
+*.cginc     text
+*.md        text
+*.json      text
+*.txt       text
+*.xml       text
+*.yml       text
+
+# Unity YAML. Needs UnityYAMLMerge registered in your git config to take
+# effect; without it these files just fall back to the default merge.
+*.unity     merge=unityyamlmerge eol=lf
+*.prefab    merge=unityyamlmerge eol=lf
+*.asset     merge=unityyamlmerge eol=lf
+*.mat       merge=unityyamlmerge eol=lf
+*.anim      merge=unityyamlmerge eol=lf
+*.controller merge=unityyamlmerge eol=lf
+*.physicMaterial merge=unityyamlmerge eol=lf
+*.meta      merge=unityyamlmerge eol=lf
+
+# Binary assets: never diff, never touch line endings.
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.psd  binary
+*.tif  binary
+*.tiff binary
+*.tga  binary
+*.ico  binary
+*.cubemap binary
+*.ttf  binary
+*.otf  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.aif  binary
+*.fbx  binary
+*.obj  binary
+*.blend binary
+*.3ds  binary
+*.dll  binary
+*.pdf  binary
+*.unitypackage binary
